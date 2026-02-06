@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UA-KOZAKY-CS2.FUN</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <span class="site-title">UA‑KOZAKY-CS2.FUN</span>
+    <nav class="menu">
+      <a href="#home">Головна</a>
+      <a href="#cases">Кейси</a>
+      <a href="#top">Топ гравців</a>
+      <a class="steam-btn" href="/auth/steam">Login Steam</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-banner" style="background-image: url('https://i.ibb.co/4f0Qh7m/red-kozak-banner.png'); background-size: cover; background-position: center;">
+        <div class="banner-text">UA KOZAKY CS2</div>
+    </div>
+</section>
+
+<section class="main-content">
+    <div class="cases" id="cases">
+        <h2>🔥 Відкрий кейс</h2>
+        <input type="text" id="playerName" placeholder="Введи свій нік">
+        <button onclick="openCase()">Відкрити кейс</button>
+        <div class="case-animation">
+            <div class="case-items" id="caseItems"></div>
+        </div>
+        <div id="reward"></div>
+    </div>
+
+    <aside class="top-players" id="top">
+        <h2>🏆 Топ гравців</h2>
+        <ul id="topList"></ul>
+    </aside>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

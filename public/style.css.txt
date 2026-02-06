@@ -1,0 +1,53 @@
+body { margin:0; font-family:Arial; background:#0f0f0f; color:white; }
+header { background:#111; padding:10px 20px; display:flex; justify-content:space-between; align-items:center; }
+.site-title { font-size:26px; color:#ff4444; font-weight:bold; }
+.menu a { margin:0 10px; color:white; text-decoration:none; }
+.menu a:hover { color:#00aaff; }
+.steam-btn { background:#1b75bc; padding:8px 16px; border-radius:6px; color:white; font-weight:bold; }
+.hero-banner { height:200px; display:flex; justify-content:center; align-items:center; }
+.banner-text { font-size:32px; font-weight:bold; color:white; text-shadow:2px 2px 6px black; }
+.main-content { display:flex; justify-content:space-around; padding:20px; flex-wrap:wrap; }
+.cases { flex:2; text-align:center; margin-bottom:20px; }
+.top-players { flex:1; background:#222; padding:15px; border-radius:8px; min-width:200px; }
+.top-players ul { list-style:none; padding:0; }
+.top-players li { background:#111; margin:5px 0; padding:8px; border-radius:6px; }
+input { padding:8px; border-radius:6px; border:none; margin-right:10px; }
+button { padding:8px 16px; border-radius:6px; border:none; background:green; color:white; font-weight:bold; cursor:pointer; }
+button:hover { background:#00ff00; }
+
+/* Анімація кейсу */
+.case-animation { width: 300px; height: 100px; margin: 20px auto; border: 2px solid #fff; border-radius: 10px; overflow: hidden; position: relative; background:#222; }
+.case-items { display: flex; transition: transform 3s cubic-bezier(0.77,0,0.175,1); }
+.case-item { min-width: 100px; height: 100px; margin-right: 5px; background:#555; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold; border-radius:6px; }
+/* Анімація кейсу з картинками */
+.case-animation { 
+    width: 300px; 
+    height: 100px; 
+    margin: 20px auto; 
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative; 
+    background:#222; 
+}
+.case-items { 
+    display: flex; 
+    transition: transform 3s cubic-bezier(0.77,0,0.175,1); 
+}
+.case-item { 
+    min-width: 100px; 
+    height: 100px; 
+    margin-right: 5px; 
+    background:#555; 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+    color:white; 
+    font-weight:bold; 
+    border-radius:6px; 
+}
+.case-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+}
